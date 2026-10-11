@@ -5,8 +5,8 @@ on:
     - cron: "0 6 * * *" # every day, 3am in buenos aires
   workflow_dispatch:
   push:
-    branches: [main]
-    paths: [.github/workflows/update.yml]
+    branches: [main, nicer-profile]
+    paths: [.github/workflows/update.yml, scripts/**, assets/**]
 
 permissions:
   contents: write
@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+
+      - name: Header, links and projects
+        run: python3 scripts/build.py
 
       - name: Latest blog posts
         uses: gautamkrishnar/blog-post-workflow@1.9.7
