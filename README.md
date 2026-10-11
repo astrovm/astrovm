@@ -10,9 +10,11 @@ prepare for unforeseen consequences.
 
 ### latest posts
 
-<!-- BLOG-POST-LIST:START -->- [Recovering a TRON wallet with an Android exploit and brute force](https://4st.li/en/blog/tronlink-wallet-recovery/) <sub>2026-03-22</sub>
+<!-- BLOG-POST-LIST:START -->
+- [Recovering a TRON wallet with an Android exploit and brute force](https://4st.li/en/blog/tronlink-wallet-recovery/) <sub>2026-03-22</sub>
 - [Don&#39;t invest in yourself](https://4st.li/en/blog/invertir-en-vos/) <sub>2024-05-12</sub>
 - [Run, Think, Shoot, Live](https://4st.li/en/blog/half-life/) <sub>2022-05-18</sub>
+
 <!-- BLOG-POST-LIST:END -->
 
 ### stats
