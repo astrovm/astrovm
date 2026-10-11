@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [.github/workflows/update.yml]
+    paths: [.github/workflows/update.yml, scripts/**, assets/**]
 
 permissions:
   contents: write
@@ -20,11 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - name: Links, headings and projects
+        run: python3 scripts/build.py
+
       - name: Latest blog posts
         uses: gautamkrishnar/blog-post-workflow@1.9.7
         with:
           feed_list: https://4st.li/blog/index.xml
-          max_post_count: 5
+          max_post_count: 3
           template: "- [$title]($url) <sub>$date</sub>$newline"
           date_format: "yyyy-mm-dd"
           tag_post_pre_newline: true
