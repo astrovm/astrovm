@@ -27,6 +27,7 @@ jobs:
           max_post_count: 5
           template: "- [$title]($url) <sub>$date</sub>$newline"
           date_format: "yyyy-mm-dd"
+          tag_post_pre_newline: true
           skip_commit: true
           enable_keepalive: false
 
