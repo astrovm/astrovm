@@ -75,7 +75,8 @@ TYPE_SPEED = 0.07  # seconds per character
 def typed(x, y, size, text, begin, color):
     """Text that shows up one character at a time, starting at `begin`."""
     width = size * CHAR
-    steps = ";".join(f"{i * width:.1f}" for i in range(len(text) + 1))
+    # The last step is a bit wider, so letters like "d" aren't cut off.
+    steps = ";".join(f"{i * width + (4 if i == len(text) else 0):.1f}" for i in range(len(text) + 1))
     dur = TYPE_SPEED * len(text)
     clip = f"t{x}-{y}"
     return f"""<clipPath id="{clip}"><rect x="{x}" y="{y - size}" width="0" height="{size * 1.5}">
