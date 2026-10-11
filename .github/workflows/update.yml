@@ -20,9 +20,6 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Links, headings and projects
-        run: python3 scripts/build.py
-
       - name: Latest blog posts
         uses: gautamkrishnar/blog-post-workflow@1.9.7
         with:
@@ -34,6 +31,10 @@ jobs:
           item_exec: post.url = post.url.replace("://4st.li/en/", "://4st.li/")
           skip_commit: true
           enable_keepalive: false
+
+      # After the blog step: it pulls with rebase, which fails on uncommitted changes.
+      - name: Links, headings and projects
+        run: python3 scripts/build.py
 
       - name: Stats card
         uses: stats-organization/github-readme-stats-action@v2
