@@ -23,11 +23,12 @@ jobs:
       - name: Latest blog posts
         uses: gautamkrishnar/blog-post-workflow@1.9.7
         with:
-          feed_list: https://4st.li/en/blog/index.xml
+          feed_list: https://4st.li/blog/index.xml
           max_post_count: 5
           template: "- [$title]($url) <sub>$date</sub>$newline"
           date_format: "yyyy-mm-dd"
           tag_post_pre_newline: true
+          item_exec: post.url = post.url.replace("://4st.li/en/", "://4st.li/")
           skip_commit: true
           enable_keepalive: false
 
