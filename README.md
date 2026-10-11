@@ -18,7 +18,9 @@
 
 ### stats
 
+<p>
 <a href="https://github.com/astrovm"><img src="profile/stats.svg" alt="GitHub stats" height="150"></a>
 <a href="https://github.com/astrovm"><img src="profile/top-langs.svg" alt="Top languages" height="150"></a>
+</p>
 
 <img src="profile/snake.svg" alt="Snake eating the contribution graph" width="100%">
