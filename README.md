@@ -12,19 +12,17 @@
 
 <!-- PROJECTS:START -->
 <p>
-<a href="https://github.com/astrovm/AdventureMods"><img src="profile/projects/adventure-mods.svg" alt="Adventure Mods: Set up mods for Sonic Adventure DX and Sonic Adventure 2 on Linux" width="49%"></a>
-<a href="https://github.com/astrovm/amyos"><img src="profile/projects/amy-os.svg" alt="Amy OS: Custom Debian and Fedora images" width="49%"></a>
-<a href="https://anomalous.xyz/"><img src="profile/projects/anomalous.svg" alt="Anomalous: An Anomalous Research Society" width="49%"></a>
-<a href="https://xp.4st.li/"><img src="profile/projects/astro-xp.svg" alt="Astro XP: Classic games and Windows XP apps in your browser" width="49%"></a>
 <a href="https://crosstune.4st.li/"><img src="profile/projects/crosstune.svg" alt="Crosstune: Open any music link in your favorite app" width="49%"></a>
+<a href="https://github.com/astrovm/PkgDeck"><img src="profile/projects/pkgdeck.svg" alt="PkgDeck: One app for every package manager" width="49%"></a>
+<a href="https://timba.cc/"><img src="profile/projects/timba.svg" alt="Timba: Coinflip game on Solana" width="49%"></a>
+<a href="https://xp.4st.li/"><img src="profile/projects/astro-xp.svg" alt="Astro XP: Classic games and Windows XP apps in your browser" width="49%"></a>
+<a href="https://t.me/respondedorbot"><img src="profile/projects/respondedor-de-boludos.svg" alt="Respondedor de boludos: Telegram bot with AI based on Argentina internet culture" width="49%"></a>
+<a href="https://github.com/astrovm/AdventureMods"><img src="profile/projects/adventure-mods.svg" alt="Adventure Mods: Set up mods for Sonic Adventure DX and Sonic Adventure 2 on Linux" width="49%"></a>
 <a href="https://flatpak.4st.li/"><img src="profile/projects/flatpak-repo.svg" alt="Flatpak repo: Install my Linux apps with Flatpak" width="49%"></a>
-<a href="https://4st.li/hosty/"><img src="profile/projects/hosty.svg" alt="hosty: System-wide ad blocker for Linux, BSD and Mac" width="49%"></a>
 <a href="https://4st.li/insidethefirewall"><img src="profile/projects/inside-the-firewall.svg" alt="Inside the firewall: Videogame I made in 2013" width="49%"></a>
 <a href="https://magi.4st.li/"><img src="profile/projects/magi.svg" alt="magi: A wizard worm that powers an orb" width="49%"></a>
-<a href="https://github.com/astrovm/PkgDeck"><img src="profile/projects/pkgdeck.svg" alt="PkgDeck: One app for every package manager" width="49%"></a>
-<a href="https://t.me/respondedorbot"><img src="profile/projects/respondedor-de-boludos.svg" alt="Respondedor de boludos: Telegram bot with AI based on Argentina internet culture" width="49%"></a>
+<a href="https://4st.li/hosty/"><img src="profile/projects/hosty.svg" alt="hosty: System-wide ad blocker for Linux, BSD and Mac" width="49%"></a>
 <a href="https://tdarg.4st.li/"><img src="profile/projects/tdarg.svg" alt="Tdarg: A web with information about ADHD in Argentina" width="49%"></a>
-<a href="https://timba.cc/"><img src="profile/projects/timba.svg" alt="Timba: Coinflip game on Solana" width="49%"></a>
 <a href="https://github.com/astrovm/ytmusicfs"><img src="profile/projects/ytmusicfs.svg" alt="YTMusicFS: A FUSE filesystem for YT Music" width="49%"></a>
 </p>
 <!-- PROJECTS:END -->
