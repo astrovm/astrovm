@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">astro&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 290, Total Commits  : 9302, Total PRs: 2558, Total Issues: 124, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 291, Total Commits  : 9327, Total PRs: 2588, Total Issues: 130, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 35.77809242945594;
+        stroke-dashoffset: 35.65286871907576;
       }
     }
   
@@ -169,7 +169,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >290</text>
+      >291</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >124</text>
+      >130</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
